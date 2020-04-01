@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `MMO Biz Blog`,
+    title: `Alex Lee Blog`,
     author: {
-      name: `Alex Lee`,
+      name: `Alex`,
       summary: `Write and share what I like!`,
     },
     description: `A tips blog share about mmo.`,
