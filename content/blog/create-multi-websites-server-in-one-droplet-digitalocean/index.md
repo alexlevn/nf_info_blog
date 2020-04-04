@@ -21,7 +21,6 @@ Click 'Add SSH Keys'
 **Create a Droplet**
 
 Click 'Create' > 'Droplets'
-giống như hình bên
 
 Select the cheapest package is enough:
 
