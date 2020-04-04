@@ -41,7 +41,7 @@ You will got the result like this image:
 
 ## Step 2: Setup theme for your Terminal.
 
-Bước này không cần thiết, nhưng nếu bạn làm, thì sẽ trực quan hơn, giúp bạn làm những bước sau dễ dàng hơn.
+_This step is not necessary, but if you do it, it will be more intuitive, making it easier for you to follow these steps._
 
 '165.227.194.244' is my server, replace with your Ip server.
 
