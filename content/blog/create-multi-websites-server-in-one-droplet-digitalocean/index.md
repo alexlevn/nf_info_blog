@@ -290,7 +290,7 @@ Download wordpress to server. Unzip it to public folder && grant permission for 
 Open: http://165.227.194.244
 To Install your website with the username & password above (phpmyadmin or root are also ok)
 
-## Step 10: Install Ssh for the Site
+## Step 10: Setup Ssl for your site
 
 For [more detail](https://certbot.eff.org/lets-encrypt/ubuntubionic-apache)
 
@@ -382,7 +382,7 @@ cat /etc/apache2/sites-available/theseconddomain.com.conf
 ~ systemctl reload apache2
 ```
 
-### Enable Ssh for the site
+### Enable Ssl for the site
 
 (Same as above step)
 
