@@ -68,10 +68,10 @@ At the server:
 ```
 
 Press 'i' for insert,
-Esc -> w: Save the file.
-Esc -> q: Quit the Vi Editor
+Esc -> :w -> Save the file.
+Esc -> :q -> Quit the Vi Editor
 
-- Copy the below line and add it at the end of .bashrc file:
+- Copy the below line and add it at the end of _.bashrc_ file:
 
 ```bash
 PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;32m\]\h:\[\033[1;35m\]\w\[\033[1;31m\]\$\[\033[0m\] '
