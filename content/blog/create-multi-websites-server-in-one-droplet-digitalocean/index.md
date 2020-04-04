@@ -168,7 +168,7 @@ Verifing mysql:
 ~ sudo systemctl status mysql
 ```
 
-press 'q' to quit
+Press 'q' to quit
 
 Securing Mysql:
 
@@ -178,7 +178,7 @@ sudo mysql_secure_installation
 
 => Setup root password: 0 = LOW
 username: root
-password: kt
+password: your_root_pass
 
 I choose 'yes' for all the questions
 
@@ -232,9 +232,9 @@ $ sudo apt-get install phpmyadmin php-mbstring php-gettext
 
 => Select: apache2 > OK => Yes (Configure db for phpmyadmin)
 
-Configure db for phpmyadmin with ..: yes
+Configure db for phpmyadmin with: 'yes'
 
-Write down your password: your_password
+Write down your password: your_password (username:phpmyadmin)
 
 ### Config FOR phpmyadmin
 
