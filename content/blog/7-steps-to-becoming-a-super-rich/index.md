@@ -40,7 +40,7 @@ Use total power, all energy to thing & do about it. For example, when you want t
 Play with those who relate to that goal. List the best people, follow and join the group with them.
 Stop all other goals, take action regardless of reason to achieve that goal. Concentrate on that goal, one time, do only one thing.
 
-**Number of repetitions**
+**3. Number of repetitions**
 
 It doesn't matter how long you do it. it's important how many times you do it.
 For example, It doen't matter how long you learn programming, it's important how many projects you complete. It doesn't matter how long you tech. It's important how many classes you tech. Study every course, do the exercises over and over again. Listen to the entire audio and videos the best people teach. Rewrite, repeat, recite each sentence of them, the best person you're following.
