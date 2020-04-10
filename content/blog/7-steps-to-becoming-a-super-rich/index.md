@@ -4,8 +4,6 @@ date: "2020-04-09T07:16:00.284Z"
 description: "7 basic steps to becoming a super rich. This write about HOW, not about WHY."
 ---
 
-## 7 Steps to becoming a super rich
-
 Refer 'Money Master the game' - Tony Robin, and how i'm applying. This article is about HOW, not about WHY.
 
 ![Rose Flower](./rose.jpg)
