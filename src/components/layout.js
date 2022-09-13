@@ -58,6 +58,9 @@ const Layout = ({ location, title, children }) => {
         padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
       }}
     >
+      <script defer src="https://cdn.commento.io/js/commento.js"></script>
+      <div id="commento"></div>
+
       <header>{header}</header>
       <main>{children}</main>
       <footer>© {new Date().getFullYear()}</footer>
