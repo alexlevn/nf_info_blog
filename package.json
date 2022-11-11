@@ -1,61 +1,53 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "gatsby-site-blog",
+  "homepage": "alexle.info",
+  "version": "1.0.0",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
-  "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
-  "dependencies": {
-    "gatsby": "^2.19.45",
-    "gatsby-cli": "^2.11.6",
-    "gatsby-image": "^2.2.44",
-    "gatsby-plugin-feed": "^2.3.29",
-    "gatsby-plugin-google-analytics": "^2.1.38",
-    "gatsby-plugin-manifest": "^2.2.48",
-    "gatsby-plugin-offline": "^3.0.41",
-    "gatsby-plugin-react-helmet": "^3.1.24",
-    "gatsby-plugin-sharp": "^2.4.13",
-    "gatsby-plugin-typography": "^2.3.25",
-    "gatsby-remark-copy-linked-files": "^2.1.40",
-    "gatsby-remark-images": "^3.1.50",
-    "gatsby-remark-prismjs": "^3.3.36",
-    "gatsby-remark-responsive-iframe": "^2.2.34",
-    "gatsby-remark-smartypants": "^2.1.23",
-    "gatsby-source-filesystem": "^2.1.56",
-    "gatsby-transformer-remark": "^2.6.59",
-    "gatsby-transformer-sharp": "^2.3.19",
-    "prismjs": "^1.19.0",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1",
-    "react-typography": "^0.16.19",
-    "typeface-merriweather": "0.0.72",
-    "typeface-montserrat": "0.0.75",
-    "typography": "^0.16.19",
-    "typography-theme-wordpress-2016": "^0.16.19"
-  },
-  "devDependencies": {
-    "prettier": "^1.19.1"
-  },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
+  "description": "blog",
+  "author": "Alex Lee",
   "keywords": [
     "gatsby"
   ],
-  "license": "MIT",
-  "main": "n/a",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
-  },
   "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
-    "start": "npm run develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
     "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^4.19.2",
+    "gatsby-plugin-feed": "^4.18.1",
+    "gatsby-plugin-gatsby-cloud": "^4.18.1",
+    "gatsby-plugin-google-analytics": "^4.18.0",
+    "gatsby-plugin-image": "^2.18.1",
+    "gatsby-plugin-manifest": "^4.18.1",
+    "gatsby-plugin-offline": "^5.18.1",
+    "gatsby-plugin-react-helmet": "^5.18.0",
+    "gatsby-plugin-sharp": "^4.18.1",
+    "gatsby-remark-copy-linked-files": "^5.18.0",
+    "gatsby-remark-images": "^6.18.1",
+    "gatsby-remark-prismjs": "^6.18.0",
+    "gatsby-remark-responsive-iframe": "^5.18.0",
+    "gatsby-remark-smartypants": "^5.18.0",
+    "gatsby-source-filesystem": "^4.18.1",
+    "gatsby-transformer-remark": "^5.18.1",
+    "gatsby-transformer-sharp": "^4.18.1",
+    "prismjs": "^1.28.0",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-helmet": "^6.1.0",
+    "typeface-merriweather": "0.0.72",
+    "typeface-montserrat": "0.0.75"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.7",
+    "gatsby-plugin-postcss": "^5.19.0",
+    "gh-pages": "^4.0.0",
+    "postcss": "^8.4.14",
+    "prettier": "^2.7.1",
+    "tailwindcss": "^3.1.6"
   }
 }
