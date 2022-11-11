@@ -15,3 +15,7 @@
 a {
   color: #efbb35;
 }
+
+h1 {
+  @apply text-pc-yellow;
+}
