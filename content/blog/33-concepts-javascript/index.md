@@ -1,7 +1,7 @@
 ---
-title: 33 Javascript Questions
+title: Javascript Questions
 date: '2021-02-11T07:16:00.284Z'
-description: "From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit, or prepare for your coding interview! :muscle: :rocket: I update this repo regularly with new questions. I added the answers in the collapsed sections below the questions, simply click on them to expand it. It's just for fun, good luck! :heart:"
+description: "From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit. I update this repo regularly with new questions. I added the answers in the collapsed sections below the questions, simply click on them to expand it. It's just for fun, good luck! :heart: <br/> -- From: Lydia --"
 ---
 
 <div align="center">
