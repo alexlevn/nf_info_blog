@@ -12,7 +12,7 @@ description: "From basic to advanced: test how well you know JavaScript, refresh
 
 <br/><span>Source from: [theavocoder](https://www.instagram.com/theavocoder)! Last updated: <a href=#20200612><b>June 12th</b></a>
 
-From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit, or prepare for your coding interview! :muscle: :rocket: I update this repo regularly with new questions. I added the answers in the **collapsed sections** below the questions, simply click on them to expand it. It's just for fun, good luck! :heart:</span>
+From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit. I update this repo regularly with new questions. I added the answers in the **collapsed sections** below the questions, simply click on them to expand it. It's just for fun, good luck! :heart: <br/> -- Lydia --</span>
 
 ###### 1. What's the output?
 
