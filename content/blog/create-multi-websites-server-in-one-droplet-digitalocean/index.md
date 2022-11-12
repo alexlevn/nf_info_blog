@@ -1,7 +1,8 @@
 ---
 title: How to create multi websites server in vps Digital Ocean
-date: "2020-04-04T07:16:00.284Z"
-description: "Step by step from scratch to create a multi websites apache server in 1 droplet."
+date: '2020-04-04T07:16:00.284Z'
+description: 'Step by step from scratch to create a multi websites apache server in 1 droplet.'
+hidden: false
 ---
 
 If you do not have an account, you can register an account through the ref [link](https://m.do.co/c/a5600c1fbe6e) <3. If you have already , continue down the steps below.

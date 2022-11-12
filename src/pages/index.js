@@ -6,7 +6,10 @@ import Seo from '../components/seo'
 
 const IndexPage = ({ data, location }) => {
   const siteTitle = data.site.siteMetadata?.title || `Title`
-  const posts = data.allMarkdownRemark.nodes
+  const allVisiblePosts = data.allMarkdownRemark.nodes
+  const posts = allVisiblePosts.filter(
+    (post) => post.frontmatter.hidden !== true,
+  )
 
   if (posts.length === 0) {
     return (
@@ -61,6 +64,7 @@ export const pageQuery = graphql`
     site {
       siteMetadata {
         title
+        description
       }
     }
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
@@ -73,6 +77,7 @@ export const pageQuery = graphql`
           date(formatString: "MMMM DD, YYYY")
           title
           description
+          hidden
         }
       }
     }
