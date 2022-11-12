@@ -92,7 +92,7 @@ const Layout = ({ location, title, children }) => {
         <footer className="text-pc-light px-5 bg-pc-darker mt-5">
           @ {new Date().getFullYear()}, Personal blog by {` `}
           <a
-            href="https://www.gatsbyjs.com"
+            href="https://www.alexle.info"
             target="_blank"
             rel="noreferrer"
             className="font-extrabold font-mont text-pc-yellow"
