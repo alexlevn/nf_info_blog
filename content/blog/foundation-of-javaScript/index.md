@@ -1,13 +1,13 @@
 ---
-title: Javascript Questions
+title: Foundation of JavaScript
 date: '2021-02-11T07:16:00.284Z'
 description: "From basic to advanced: test how well you know JavaScript, refresh your knowledge a bit. I update this repo regularly with new questions. I added the answers in the collapsed sections below the questions, simply click on them to expand it. It's just for fun, good luck! :heart: <br/> -- From: Lydia --"
-hidden: true
+hidden: false
 ---
 
 <div align="center">
   <img height="60" src="https://img.icons8.com/color/344/javascript.png">
-  <h3>JavaScript Questions</h3>
+  <h3>Foundation of JavaScript</h3>
 
 ---
 
